@@ -49,9 +49,6 @@ public class SimpleCloudRecoEventHandler : MonoBehaviour
     // Register cloud reco callbacks
     void Awake()
     {
-        WebCamTexture webCamTexture = new WebCamTexture();
-        webCamTexture.deviceName = "c922 Pro Stream Webcam";
-        webCamTexture.requestedFPS = 30;
         mCloudRecoBehaviour = GetComponent<CloudRecoBehaviour>();
         mCloudRecoBehaviour.RegisterOnInitializedEventHandler(OnInitialized);
         mCloudRecoBehaviour.RegisterOnInitErrorEventHandler(OnInitError);

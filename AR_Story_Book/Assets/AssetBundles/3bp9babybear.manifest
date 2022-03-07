@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2400132718
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 61e8238f7b7205bd53f6decc32d9e904
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c31af75079f831b04b55fc6ad0a01bd2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3Bp9babyBear/3Bp9babyBear3D.obj
+- Assets/3Bp9babyBear/3804.png
+Dependencies: []

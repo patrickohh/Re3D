@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2246696598
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: 3bcover
+      Dependencies: {}
+    Info_1:
+      Name: 3bp3
+      Dependencies: {}
+    Info_2:
+      Name: 3bp2
+      Dependencies: {}
+    Info_3:
+      Name: 3bp4
+      Dependencies: {}
+    Info_4:
+      Name: 3bp5
+      Dependencies: {}
+    Info_5:
+      Name: 3bp6bear
+      Dependencies: {}
+    Info_6:
+      Name: 3bp7bear
+      Dependencies: {}
+    Info_7:
+      Name: 3bp8babybear
+      Dependencies: {}
+    Info_8:
+      Name: 3bp9babybear
+      Dependencies: {}
+    Info_9:
+      Name: 3bp10bear
+      Dependencies: {}
+    Info_10:
+      Name: p11
+      Dependencies: {}
+    Info_11:
+      Name: p12
+      Dependencies: {}
+    Info_12:
+      Name: p13
+      Dependencies: {}
+    Info_13:
+      Name: p14
+      Dependencies: {}
+    Info_14:
+      Name: p15
+      Dependencies: {}

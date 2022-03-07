@@ -1,0 +1,580 @@
+/target:library
+/out:Temp/UnityEngine.UIElementsModule.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/UnityEngine.UIElementsModule.dll.ref
+/unsafe
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/UnityEngine.TextCoreTextEngineModule.dll
+/reference:A:/Unity_Projects/AR_Story_Book/Library/PackageCache/com.ptc.vuforia.engine@8d03f2195896-1643852264865/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll
+/reference:A:/Unity_Projects/AR_Story_Book/Library/PackageCache/com.ptc.vuforia.engine@8d03f2195896-1643852264865/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll
+/reference:Assets/Firebase/Plugins/Firebase.App.dll
+/reference:Assets/Firebase/Plugins/Firebase.Auth.dll
+/reference:Assets/Firebase/Plugins/Firebase.Platform.dll
+/reference:Assets/Firebase/Plugins/Firebase.Storage.dll
+/reference:Assets/Firebase/Plugins/Firebase.TaskExtension.dll
+/reference:Assets/Firebase/Plugins/Google.MiniJson.dll
+/reference:Assets/Parse/Plugins/dotNet45/Unity.Compat.dll
+/reference:Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:UIE_PACKAGE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_26
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+/define:UNITY_ASSERTIONS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_PRO_LICENSE
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+/define:USE_SEARCH_ENGINE_API
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\AlignmentUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\AssemblyInfo.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Atlas.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\BaseLiveReloadAssetTracker.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\BindableElement.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Bindings\VisualTreeBindingsUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ClampedDragger.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ClickDetector.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Clickable.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Collections\DictionaryExtensions.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ContextualMenuManager.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ContextualMenuManipulator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\BaseBoolField.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\BaseField.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\BaseSlider.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Binding.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Box.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Button.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\DropdownField.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Foldout.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\GenericDropdownMenu.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\GroupBox.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\HelpBox.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\IMixedValueSupport.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\INotifyValueChanged.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Image.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\KeyboardTextEditor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Label.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\ListView.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\MinMaxSlider.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\PopupWindow.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\ProgressBar.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\RadioButton.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\RadioButtonGroup.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\RepeatButton.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\ScrollView.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Scroller.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Slider.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\SliderInt.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TextEditor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TextEditorEngine.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TextField.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TextInputFieldBase.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\Toggle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TouchScreenTextEditor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TreeView.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TreeViewItem.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TwoPaneSplitView.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Controls\TwoPaneSplitViewResizer.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Cursor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DefaultEventSystem.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DisposeHelper.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\DragAndDropUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\DragEventsProcessor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\IDragAndDrop.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\IDragAndDropController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\IListDragAndDropArgs.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\IListViewDragAndDropController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\IReorderable.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\ListViewDragger.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DragAndDrop\ListViewReorderableDragAndDropController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DropdownMenu.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\DropdownUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\EasingCurves.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\EventDispatcher.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\CaptureEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\ChangeEvent.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\CommandEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\CommandEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\DebuggerEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\DefaultDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\DragAndDropEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\ElementUnderPointer.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventBase.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventCallback.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventCallbackRegistry.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventDebugger\EventDebugger.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventDebugger\EventDebuggerEventRecord.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventDebugger\EventDebuggerTrace.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventDebugger\GlobalCallbackRegistry.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\EventHandler.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\FocusEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\IEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\IMGUIEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\InputEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\KeyboardEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\KeyboardEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\LayoutEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\MouseCaptureDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\MouseEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\MouseEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\MouseEventsHelper.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\NavigationEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\NavigationEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PanelEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PointerCaptureDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PointerDeviceState.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PointerEventDispatchingStrategy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PointerEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\PropagationPaths.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\StyleEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\TooltipEvent.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Events\UIEvent.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\FocusController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\DynamicAtlasSettings.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\NavigateFocusRing.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\PanelSettings.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\RuntimeEventDispatcher.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\RuntimePanel.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\RuntimePanelUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\UIDocument.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GameObjects\UIDocumentHierarchyUtil.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\GroupBoxUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\HierarchyTraversal.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\IDataWatchService.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\IGroupBox.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\IGroupManager.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ILiveReloadAssetTracker.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\IMGUIContainer.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ISerializableJsonDictionary.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ITransform.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ImmediateModeElement.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\InteractionEnums.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\KeyboardNavigationManipulator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ManipulatorActivationFilter.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Manipulators.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\MouseButton.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\MouseCaptureController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\MouseManipulator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ObjectPool.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Panel.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\PointerCaptureController.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\PointerManipulator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ProjectionUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRAllocator2D.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRAtlasAllocator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRAtlasManager.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRDynamicAtlasPage.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRGradientSettingsAtlas.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRLayoutUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRLinkedPool.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRMeshBuilder.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRMeshGenerationContext.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRRenderChain.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRRenderEvents.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRRepaintUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRShaderInfoStorage.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRShaders.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRStylePainter.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRTessellation.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRTextCoreSettings.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRTextureBlitter.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRTextureRegistry.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRTextureSlotManager.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRVEShaderInfoAllocator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRVectorImageManager.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRenderer\UIRenderDevice.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRenderer\UIRenderDeviceAllocator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Renderer\UIRenderer\UIRenderers.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Scheduler.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Spacing.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StringUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Background.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\ComputedStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\CustomStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\FontDefinition.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\ComputedStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\IResolvedStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\IStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\InitialStyle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\InlineStyleAccess.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\ResolvedStyleAccess.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\ShorthandApplicator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\StyleDataStructs.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\StyleDebug.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\StylePropertyCache.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\StylePropertyEnums.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Generated\StylePropertyUtil.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\InlineStyleAccess.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\Length.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleBackground.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleColor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleCursor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleDataRef.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleDebug.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleEnum.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleFloat.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleFont.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleFontDefinition.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleInt.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleLength.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleTextShadow.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Style\StyleTypes.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleEnums.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StylePainter.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\CSSSpec.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Dimension.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\ScalableImage.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleComplexSelector.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleProperty.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StylePropertyReader.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleRule.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSelector.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSelectorHelper.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSelectorPart.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSelectorRelationship.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSelectorType.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheet.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheetApplicator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheetBuilder.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheetCache.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheetColor.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleSheetExtensions.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleValue.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleValueFunction.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleValueHandle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleValueKeyword.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleValueType.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\StyleVariable.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Syntax\StyleSyntaxExpression.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Syntax\StyleSyntaxParser.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Syntax\StyleSyntaxToken.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\ThemeStyleSheet.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Validation\StyleMatcher.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Validation\StylePropertyCache.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Validation\StylePropertyValueParser.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\StyleSheets\Validation\StyleValidator.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\TemplateContainer.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Text\PanelTextSettings.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Text\TextHandle.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\TextElement.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\TextShadow.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\Transitions.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UIElementsPackageUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UIElementsRuntimeUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UIElementsUtility.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UQuery.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\IUxmlAttributes.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\OrphanFactories.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\TemplateAsset.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\UxmlAttributeDescription.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\UxmlChildElementDescription.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\UxmlFactory.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\UxmlTypeRestriction.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\VisualElementAsset.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\VisualElementFactoryRegistry.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\UXML\VisualTreeAsset.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\ValueAnimation.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VectorImage.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElement.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementAnimation.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementExperimentalFeatures.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementFocusRing.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementHierarchy.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementMathUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementScheduler.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementStyleAccess.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementStyleSheetSet.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementTooltip.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementTypeData.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualElementUtils.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeAnimationUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeAssetChangeTrackerUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeHierarchyTracker.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeStyleUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeTransformClipUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeUpdater.cs
+A:\Unity_Projects\AR_Story_Book\Library\PackageCache\com.unity.ui@1.0.0-preview.18\Core\VisualTreeViewDataUpdater.cs

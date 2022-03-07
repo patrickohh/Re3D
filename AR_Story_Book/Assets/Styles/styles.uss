@@ -1,0 +1,64 @@
+.button-style:hover {
+    height: 49px;
+    width: 180px;
+    background-color: rgb(58, 100, 173);
+    font-size: 30px;
+    -unity-font: url('/Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss');
+    -unity-font-style: normal;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgb(41, 7, 116);
+    border-right-color: rgb(41, 7, 116);
+    border-top-color: rgb(41, 7, 116);
+    border-bottom-color: rgb(41, 7, 116);
+    border-left-width: 0;
+    border-right-width: 5px;
+    border-top-width: 0;
+    border-bottom-width: 5px;
+    color: rgb(0, 0, 0);
+    -unity-font-definition: url('/Assets/GOODDP__ SDF 1.asset');
+}
+
+.button-style {
+    height: 49px;
+    width: 180px;
+    background-color: rgb(80, 144, 199);
+    font-size: 30px;
+    -unity-font: url('/Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss');
+    -unity-font-style: normal;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgb(41, 7, 115);
+    border-right-color: rgb(41, 7, 115);
+    border-top-color: rgb(41, 7, 115);
+    border-bottom-color: rgb(41, 7, 115);
+    border-left-width: 0;
+    border-right-width: 5px;
+    border-top-width: 0;
+    border-bottom-width: 5px;
+    color: rgb(0, 0, 0);
+    -unity-font-definition: url('/Assets/GOODDP__ SDF 1.asset');
+}
+
+.button-style:active {
+    background-color: rgb(47, 58, 113);
+    color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+    font-size: 30px;
+    -unity-font: url('/Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss');
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-color: rgba(41, 7, 116, 255);
+    border-right-color: rgba(41, 7, 116, 255);
+    border-top-color: rgba(41, 7, 116, 255);
+    border-bottom-color: rgba(41, 7, 116, 255);
+    -unity-font-definition: url('/Assets/GOODDP__ SDF 1.asset');
+}

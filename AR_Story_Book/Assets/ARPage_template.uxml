@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="styles.uss" />
+    <ui:Button text="Back to Main" display-tooltip-when-elided="true" name="Back-to-main" class="button-style" style="height: 45px; width: 178px;" />
+    <ui:VisualElement style="height: 10%; justify-content: space-around; align-items: stretch; left: 0; top: 185px; right: 0; bottom: 0; width: auto; flex-wrap: wrap; flex-grow: 0; flex-shrink: 1; margin-top: 0; margin-bottom: 0; position: relative; flex-direction: row-reverse;">
+        <ui:Button display-tooltip-when-elided="true" name="Next-Page-Button" class="button-style" style="position: relative; top: auto; left: auto; -unity-text-align: middle-center; height: 59px; width: 59px; justify-content: space-around; align-items: stretch; right: auto; bottom: auto; background-image: url(&apos;/Assets/book turning icon.png&apos;); -unity-background-scale-mode: scale-to-fit; -unity-slice-bottom: 8; -unity-slice-top: 0; flex-direction: column; overflow: visible; visibility: visible; flex-grow: 0; flex-wrap: wrap; display: flex; margin-top: 1px; margin-left: 1px; margin-right: 1px;" />
+    </ui:VisualElement>
+</ui:UXML>
